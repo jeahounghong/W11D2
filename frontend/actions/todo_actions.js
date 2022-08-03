@@ -11,6 +11,8 @@ export const receiveTodos = (todos) => {
 }
 
 export const receiveTodo = (todo) => {
+    console.log(todo)
+    console.log("hii")
     return {
         type: RECEIVE_TODO,
         todo,
@@ -18,6 +20,7 @@ export const receiveTodo = (todo) => {
 }
 
 export const removeTodo = (todo) => {
+    console.log(todo)
     return {
         type: REMOVE_TODO,
         todo,
